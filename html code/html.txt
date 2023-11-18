@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>john doe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <nav>
+        <div class="continer">
+            <ul>
+                <li><a href="#hom">Home</a></li>
+                <li><a href="#abo">About</a></li>
+                <li><a href="#php">Photo</a></li>
+                <li><a href="#con">Contact</a></li>
+    
+            </ul>
+        </div>
+    </nav>
+    <div class="landing" id hom>
+        <div class="continer">
+            <h1>I'm John Doe.</h1>
+            <p>Photographer and Web Designer.</p>
+            <img src="photo/photo_2023-08-08_13-12-46.jpg">
+        </div>
+    </div>
+    <div class="my-name" id="abo">
+        <div class="continer">
+            <h3>My Name</h3>
+            <p>Some text about me. Some text about me. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+        </div>
+    </div>
+    <div class="my-skill">
+        <div class="continer">
+            <h3>My Skills</h3>
+        </div>
+        <div class="content">
+            <div class="box">
+                <p>Photography</p>
+                <div class="plog">
+                </div>
+            </div>
+            <div class="box">
+                <p>Web Design</p>
+                <div class="plog">
+                </div>
+            </div>
+            <div class="box">
+                <p>Photoshop</p>
+                <div class="plog">
+                </div>
+            </div>
+        </div>
+        <div class="my-skill-footer">
+            <p>11+ <br>patrtners</p>
+            <p>55+ <br> project done</p>
+            <p>89+ <br>Happy cilents</p>
+            <p>150+ <br> Meetings</p>
+        </div>
+        <button><img src="icon/download.png" style="width: 20px; vertical-align: middle; margin-right: 10px;">Download Resume</button>
+    </div>
+    <div class="my-price">
+        <div class="continer">
+            <h2>My Price</h2>
+        </div>
+        <div class="content">
+            <div class="box">
+                <ul>
+                    <li class="bas">Basic</li>
+                    <li>Web Design</li>
+                    <li>Photography</li>
+                    <li>5GB Storage</li>
+                    <li>Mail Support</li>
+                    <li>$10 <br> per month</li>
+                    <a href="#">Sign up</a>
+                </ul>
+            </div>
+            <div class="box">
+                <ul>
+                    <li class="pr">pro</li>
+                    <li>Web Design</li>
+                    <li>Photography</li>
+                    <li>50GB Storage</li>
+                    <li>Endless Support</li>
+                    <li>$25 <br> per month</li>
+                    <a href="#">Sign up</a>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="small-photo">
+        <div class="continer">
+            <h2>My Reputation</h2>
+        </div>
+        <div class="content">
+            <div class="box">
+                <img src="photo/photo_2023-08-11_15-25-54.jpg">
+                <p>Chris Fox. CEO at Mighty Schools.<br>
+    
+                    John Doe saved us from a web disaster.</p>
+            </div>
+            <div class="box">
+                <img src="photo/photo_2023-08-11_15-25-51.jpg">
+                <p>Rebecca Flex. CEO at Company.<br>
+    
+                    No one is better than John Doe.</p>
+            </div>
+        </div>
+    </div>
+    <div class="photo" id="pho">
+        <div class="continer">
+            <h2>My Photo</h2>
+        </div>
+        <div class="content">
+            <img src="photo/photo_2023-08-08_13-12-11.jpg">
+            <img src="photo/house4.jpg">
+            <img src="photo/photo_2023-08-08_13-12-41.jpg">
+            <img src="photo/photo_2023-08-08_13-12-17.jpg">
+            <img src="photo/house5.jpg">
+            <img src="photo/house6.jpg">
+            <img src="photo/photo_2023-09-08_18-58-45.jpg">
+            <img src="photo/photo_2023-09-08_18-58-41.jpg">
+
+        </div>
+    </div>
+    <div class="contact" id="con">
+        <div class="continer">
+            <h2>Contact Me</h2>
+            <h3><img src="icon/location(1).png" style="width: 20px;vertical-align: middle;margin-left: 10px; "> 423 Some adr, Chicago, US</h3>
+                <h3><img src="icon/call.png" style="width: 20px;vertical-align: middle;margin-left: 10px;"> Phone: +00 151515</h3>
+                <h3><img src="icon/gmail.png" style="width: 20px;vertical-align: middle;margin-left: 10px;"> Email: mail@mail.com</h3>
+        </div>
+        <div class="contact-content">
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+            <input type="text" placeholder="Message">
+            <button><img src="icon/paper-plane.png" style="width: 15px; margin-right: 10px;vertical-align: middle;">Send Meeasge</button>
+
+        </div>
+    </div>
+    <div class="footer">
+        <div class="contienr">
+            <hr>
+            <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+            <i class="fa-regular fa-comments" style="color: #ffffff;"></i>
+            <p>power by <a href="#">w3school</a><br> by omar rehan</p>
+        </div>
+    </div>
+    
+</body>
+</html>
